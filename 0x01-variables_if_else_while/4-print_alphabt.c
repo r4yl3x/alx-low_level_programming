@@ -18,9 +18,8 @@ int main(void)
 		if (digit != q && digit != e)
 		{
 			putchar(digit);
-			putchar('\n');
 		}
 	}
-	
+	putchar('\n');
 	return (0);
 }

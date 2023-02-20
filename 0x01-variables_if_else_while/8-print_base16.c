@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	char num = '0';
 	char digit;
@@ -21,5 +21,5 @@ int main()
 		putchar(digit);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
